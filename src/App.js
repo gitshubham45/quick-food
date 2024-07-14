@@ -2,12 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './components/Header';
 import Body from './components/Body';
-import x from "./utils/constants"
 
 
 const AppLayout = () => {
 
-    console.log(x);
 
     return (
         <div className='app'>

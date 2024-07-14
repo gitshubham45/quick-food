@@ -57,7 +57,31 @@
     border-radius: 10px;
 }
 
+.filter{
+    display: flex;
+}
+
 .filter-btn{
     margin : 10px;
     cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shimmer-card{
+    margin-top: 10px;
+    padding: 5px;
+    width : 200px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgb(220, 219, 219);
+}
+
+.login{
+    padding: 0 20px;
+    cursor : pointer;
 }
